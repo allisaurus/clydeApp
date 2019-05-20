@@ -17,7 +17,7 @@ ENTRYPOINT ["dotnet", "aspnetapp.dll"]
 
 
 # Build cmd
-# $> docker build -t aspnetapp .
+# $> docker build -t clydeapp .
 
 # Run cmd
-# $> docker run -d -p 8080:80 --name myapp aspnetapp
+# $> docker run -d -p 8080:80 --name clyde clydeapp
